@@ -3,6 +3,7 @@ import BookList from "./Components/BookList";
 import "./App.css"
 import"./Components/Form"
 import LoginForm from "./Components/Form";
+import ColorSwitcher from "./ColorSwitcher";
 const App = () => {
   const books = [
     { id: 1, title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
@@ -17,6 +18,7 @@ const App = () => {
       <h1>My Book Collection</h1>
       <BookList books={books} />
       <LoginForm>Form</LoginForm>
+      <ColorSwitcher>ColorSwitcher</ColorSwitcher>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const LoginForm = () => {
-  const [username, setUsername] = useState('Muchai');
-  const [password, setPassword] = useState('22235599');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleSubmit = (e) => {
